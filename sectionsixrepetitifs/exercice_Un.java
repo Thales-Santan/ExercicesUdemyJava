@@ -3,7 +3,6 @@
  * Ensuit, afficher la somme de tous les nombres déjà tapés */
 
 package sectionsixrepetitifs;
-
 import java.util.Scanner;
 
 public class exercice_Un {
