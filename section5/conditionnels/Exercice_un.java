@@ -2,7 +2,7 @@
  * Lire un nombre entier, et après dire si ce nombre est négatif ou pas.
  */
 
-package sectioncinqconditionnels;
+package section5.conditionnels;
 
 import java.util.Scanner;
 

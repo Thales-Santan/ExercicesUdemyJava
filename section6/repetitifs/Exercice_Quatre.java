@@ -6,7 +6,7 @@
  * Indiquez combien de ces valeurs X se situent dans l'intervalle [10-20] et combien sont hors de l'intervalle, 
  * en montrant cette information selon l'exemple (utiliser le mot "in" dans l'intervalle, et "out" à l'extérieur de l'intervalle)*/
 
-package sectionsixrepetitifs;
+package section6.repetitifs;
 
 import java.util.Scanner;
 

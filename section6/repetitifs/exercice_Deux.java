@@ -6,7 +6,7 @@ de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a sen
  "mot de passe invalide" . Lorsque le mot de passe est informé correctement, montrer la message "Acces
  permis" et le programme doit terminer.  Considérez que le mot de passe correct est la valeur 2002 x*/
 
-package sectionsixrepetitifs;
+package section6.repetitifs;
 
 import java.util.Scanner;
 

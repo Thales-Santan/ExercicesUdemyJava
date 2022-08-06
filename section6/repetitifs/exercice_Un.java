@@ -2,7 +2,7 @@
  * soma de todos os numeros digitado/ Lire une série des nombres entiers tapés et arreter lorsque le zéro est tapé
  * Ensuit, afficher la somme de tous les nombres déjà tapés */
 
-package sectionsixrepetitifs;
+package section6.repetitifs;
 import java.util.Scanner;
 
 public class exercice_Un {

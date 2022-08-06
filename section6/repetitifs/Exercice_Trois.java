@@ -2,7 +2,7 @@
 X, se for o caso / Lisez un nombre entier X (1 <= X <= 1000). Ensuite, montrez les impairs de l'un jusqu'au X,
 un par ligne, en incluant le X si necessaire.*/
 
-package sectionsixrepetitifs;
+package section6.repetitifs;
 
 import java.util.Scanner;
 

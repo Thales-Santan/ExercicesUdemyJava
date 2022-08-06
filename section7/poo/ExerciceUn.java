@@ -1,4 +1,4 @@
-package sectionSeptPoo;
+package section7.poo;
 
 public class ExerciceUn {
 

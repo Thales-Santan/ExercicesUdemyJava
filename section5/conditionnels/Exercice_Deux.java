@@ -2,7 +2,7 @@
  *Lire 2 nombres entiers et informer s'ils sont multiples ou nom
  */
 
-package sectioncinqconditionnels;
+package section5.conditionnels;
 
 import java.util.Scanner;
 
