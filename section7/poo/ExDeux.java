@@ -21,8 +21,7 @@ public class ExDeux {
 		System.out.println("Combien de ce produit est en inventaire ?");
 		produit.quantite = cv.nextInt();
 
-		System.out.printf("%nProduit: %s%nQuantité en stock: %d%nValeur unitaire: %.2f%nMontant total: %.2f%n%n", produit.nom,
-				produit.quantite, produit.valeur, produit.valeurTotalDeProduits());
+		System.out.println(produit);
 
 		do {
 			System.out.printf("Voulez-vous movimenter l'inventaire de %s?%n", produit.nom);
@@ -35,16 +34,14 @@ public class ExDeux {
 				System.out.printf("Combien de %s seront rajoutés?%n", produit.nom);
 				produitsAjoutes = cv.nextInt();
 				produit.addDesProduits(produitsAjoutes);
-				System.out.printf("%nProduit: %s%nQuantité en stock: %d%nValeur unitaire: %.2f%nMontant total: %.2f%n%n", produit.nom,
-						produit.quantite, produit.valeur, produit.valeurTotalDeProduits());
+				System.out.println(produit);
 				break;
 			case 2:
 				int produitsRetires = 0;
 				System.out.printf("Combien de %s seront retirés?%n", produit.nom);
 				produitsRetires = cv.nextInt();
 				produit.retireeDesProduits(produitsRetires);
-				System.out.printf("%nProduit: %s%nQuantité en stock: %d%nValeur unitaire: %.2f%nMontant total: %.2f%n%n", produit.nom,
-						produit.quantite, produit.valeur, produit.valeurTotalDeProduits());
+				System.out.println(produit);
 				break;
 			case 3:
 				System.out.println("Ciao!");
@@ -56,8 +53,7 @@ public class ExDeux {
 			}
 		} while (option != 3);
 
-		System.out.printf("Produit: %s%nQuantité en stock: %d%nValeur unitaire: %.2f%nMontant total: %.2f%n", produit.nom,
-				produit.quantite, produit.valeur, produit.valeurTotalDeProduits());
+		System.out.println(produit);
 
 		cv.close();
 	}
