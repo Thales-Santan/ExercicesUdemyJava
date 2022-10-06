@@ -10,8 +10,10 @@ public class Produit {
 	}
 	
 	public void retireeDesProduits(int quantite) {
+		this.quantite -= quantite;
+	}
+
+	public void addDesProduits(int quantite) {
 		this.quantite += quantite;
 	}
-	
-	
 }
