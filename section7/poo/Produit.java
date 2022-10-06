@@ -1,3 +1,4 @@
+//Relativo ao Ex 2 / Relatif à l'exercice 2
 package section7.poo;
 
 public class Produit {

@@ -1,5 +1,5 @@
-//Criar um programa simples de gestao de estoque,com movimentaçao de estoque, valor unitario e  valor total 
-//Faire un program simple de gestion d'inventaire, avec movimentation , valeur unitaire et valeur totale.
+//Criar um programa simples de gestao de estoque,com movimentaçao de estoque, valor unitario e  valor total. Ver classe Produto.
+//Faire un program simple de gestion d'inventaire, avec movimentation , valeur unitaire et valeur totale. Voir la Classe Produit.
 package section7.poo;
 
 import java.util.Locale;
